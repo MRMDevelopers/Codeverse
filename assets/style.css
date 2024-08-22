@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background-color: #ffffff;
+  width: 1064;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  margin-top: -10px;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar img {
+  height: 90px;
+  margin-top: -5px;
+}
+
+.navbar h1 {
+  margin-top: -80px;
+  margin-left: 90px;
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-size: 18px;
+  margin-left: 90px;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin-top: -60px;
+  position: absolute;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 100px;
+  height: 35PX;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300PX;
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 23px;
+}
+
+#nav-links a:hover {
+  background-color: #7758D7;
+  color: rgb(255, 255, 255);
+}
+
+
+.mentor-box {
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -20px;
+  margin-right : -20px;
+}
+
+.mentor-box img {
+  margin-left: 1000px;
+  margin-top: 15px;
+  position: relative;
+  height: 537px;
+}
+
+.mentor-box p {
+  align-items: justify;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 576;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(29, 2, 49);
+  margin-top: -450px;
+  margin-left: 330PX;
+  justify-content: space-between;
+}
+
+.mentor-box p b {
+  color: #FF7B41;
+}
+
+.mentor-box h3 {
+  align-items: justify;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(146, 144, 144);
+  margin-top: -40px;
+  margin-left: 330PX;
+  font-size: 19px;
+}
+
+.mentor-box button {
+  background-color: #A390FC;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  width: 170px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 330px;
+  margin-top: 15px;
+}
+
+#pecularity {
+  display: flex;
+  flex-direction: row;
+}
+
+.courses h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    margin-left: 550px;
+    font-size: 45px;
+    margin-top: -70px;
+}
+
+
+.courses p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    margin-left: 550px;
+    color: #9ca4a8;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.students h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  margin-left: 730px;
+  font-size: 45px;
+  margin-top: -70px;
+}
+
+
+.students p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  margin-left: 730px;
+  color: #9ca4a8;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.to-course {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.to-course p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  margin-left: 330px;
+  margin-top: 50px;
+}
+
+.to-course p b {
+  color: #FF7B41;
+  text-decoration: underline;
+}
+
+.to-course p strong {
+  color: #7758D7;
+  text-decoration: underline;
+}
+
+.to-course button {
+  background-color: #7758D7;
+  color: rgb(255, 255, 255);
+  height: 80px;
+  width: 500px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  margin-left: 950px;
+  margin-top: -200px;
+  position: absolute;
+  padding: 10px;
+}
+
+.to-course button b {
+  color: #000000;
+  text-decoration: none;
+}
+
+.trending-courses {
+  height: 350px;
+  background-color: #F5F7FA;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.trending-courses p {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-left: 330PX;
+  position: absolute;
+  justify-content: space-between;
+  line-height: 60px;
+}
+
+.trending-courses h2 {
+  align-items: justify;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  margin-top: 170px;
+  margin-left: 330PX;
+  position: absolute;
+  font-size: 23px;
+}
+
+.buttons {
+  margin-left: 330px;
+}
+
+.buttons button {
+  background-color: #ffffff;
+  border: 1px solid rgb(22, 21, 21);
+  border-radius: 40px;
+  height: 10px;
+  width: 30px;
+  margin-top: 250px;
+}
+
+.buttons button:hover {
+  background-color: #7758D7;
+}
+
+.buttons #center-btn {
+  background-color: #7758D7;
+}
+
+#explore-btn {
+  background-color: #7758D7;
+  color: #F5F9F9;
+  border: none;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-left: 180px;
+  margin-top: 250px;
+}
+
+#courses-trend {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+ .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 300px;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid black;
+}
+
+ .course img {
+  height: 90px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 320px;
+  align-items: center;
+  margin: 13px;
+  position: relative;
+  height: 150px;
+  border: 2px solid black;
+  transform: translateX(0.9);
+  transition: 1s;
+}
+
+ .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 30px;
+  margin-top: -10px;
+  color: #ff4d00;
+}
+
+ #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 20px;
+  width: 320px;
+  line-height: 20px;
+  margin-left: 15px;
+  color: #000000;
+}
+
+ #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 90px;
+}
+
+ #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+ .course a {
+  color:  #7758D7;
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 278px;
+}
+
+
+
+
+#recognition {
+  height: 300px;
+}
+
+#recognition p {
+  font-size: 20px;
+  margin-left: 600px;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #535151;
+}
+
+.company-img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 265px;
+}
+
+.company-img img {
+  height: 70px;
+  margin-left: 60px;
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+.footer {
+  height: 350px;
+  background-color: #2D2F31;
+  color: #D1D7DC;
+  margin: -20px;
+}
+
+.footer-1st-section {
+  height: 100px;
+  border: 1px solid #f0eded;
+}
+
+.footer p {
+  font-size: 30px;
+  font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.footer p b {
+  color: #7758D7;
+  text-decoration: underline;
+
+}
+
+.footer-main-section {
+  margin-top: 40px;
+  display: flex;
+}
+
+.footer-main-section .first-column h1 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-left: 700px;
+    
+}
+
+.footer-main-section .second-column h1 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-left: 130px;
+}
+
+.footer-main-section .third-column h1 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-left: 130px;   
+}
+
+.footer-main-section p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 170px;
+  margin-left: 850px; 
+}

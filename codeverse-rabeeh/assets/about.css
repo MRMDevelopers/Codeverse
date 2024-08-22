@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #F5F7FA;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  margin: -10px;
+  font-family: "Hind", sans-serif;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar img {
+  height: 90px;
+  margin-top: -5px;
+}
+
+.navbar h1 {
+  margin-top: -80px;
+  margin-left: 90px;
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin-top: -60px;
+  position: absolute;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 100px;
+  height: 35PX;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300PX;
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 23px;
+}
+
+#nav-links a:hover {
+  background-color: #7758D7;
+  color: rgb(255, 255, 255);
+}
+
+.about-codeverse {
+    display: flex;
+}
+
+#column-1 {
+    background-color: #ffffff;
+    height: 600px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 350px;
+    border-radius: 50px;
+}
+
+#column-1 h3 {
+    color:  #7758D7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 30px;
+    font-size: 25px;
+}
+
+#column-1 h1 {
+    color:  #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-size: 45px;
+}
+
+#column-1 p {
+    color:  #636363;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#column-2 {
+    background-image: url(../images/it-coding.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+#column-2 img {
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#column-2 h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -80px;
+    margin-left: 110px;
+}
+
+#column-2 p {
+    color: #fff01f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#column-3 {
+    background-color: #ffffff;
+    height: 290px;
+    width: 600px;
+    margin-top: 450px;
+    margin-left: -600px;
+    border-radius: 50px;
+}
+
+#row-1st {
+    display: flex;
+    flex-direction: row;
+}
+
+#row-1st .row-1 {
+    height: 125px;
+    background-color: #F5F7FA;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 270PX;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+#row-1st .row-2 {
+    height: 125px;
+    background-color: #F5F7FA;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 270PX;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 305px;
+}
+
+#row-2nd {
+    display: flex;
+    flex-direction: row;
+}
+
+#row-2nd .row-1 {
+    height: 125px;
+    background-color: #F5F7FA;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 270PX;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+#row-2nd .row-2 {
+    height: 125px;
+    background-color: #F5F7FA;
+    width: 270PX;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 305px;
+}
+
+#column-3 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 520;
+    font-style: normal;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+#column-3 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+

@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: #F5F7FA;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  margin: -10px;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar img {
+  height: 90px;
+  margin-top: -5px;
+  border-right: none;
+}
+
+.navbar h1 {
+  margin-top: -80px;
+  margin-left: 90px;
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin-top: -60px;
+  position: absolute;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 100px;
+  height: 35PX;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300PX;
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 23px;
+}
+
+#nav-links a:hover {
+  background-color: #7758D7;
+  color: rgb(255, 255, 255);
+}
+
+#course-list {
+  display: flex;
+  margin-left: 0px;
+}
+
+#course-list button {
+  background-color: #ffffff;
+  color: black;
+  font-weight: solid;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 35px;
+  width: 150px;
+  border: 1px solid #333333;
+  border-radius: 40px;
+}
+
+
+.header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: -55px;
+  margin-left: 727px;
+  color: #ff7b41;
+}
+
+img {
+  border-top:1px solid rgb(56, 55, 55) ;
+  border-left:1px solid rgb(56, 55, 55) ;
+  border-right: 1px solid rgb(56, 55, 55);
+}
+
+.courses-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-1 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-1 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-1 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-1 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-1 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-1 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-1 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 15px;
+}
+
+
+
+.courses-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-2 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-2 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-2 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-2 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-2 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-2 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-2 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+
+
+.courses-3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-3 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-3 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-3 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-3 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-3 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-3 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-3 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+
+
+.courses-4 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-4 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-4 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-4 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-4 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-4 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-4 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-4 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+
+
+.courses-5 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-5 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-5 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-5 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-5 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-5 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-5 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-5 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+
+.courses-6 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.courses-6 .course {
+  background-color: #ffffff;
+  color: #000000;
+  height: 310px;
+  width: 370px;
+  margin-top: 105px;
+  margin-left: 65px;
+  border-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(56, 55, 55);
+}
+
+.courses-6 .course img {
+  height: 100px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 370px;
+  margin-left: -1px;
+  margin-top: -1px;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+.courses-6 .course h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 800px;
+  margin-left: 50px;
+  color: #ff4d00;
+}
+
+.courses-6 #discription {
+  align-items: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  width: 350px;
+  line-height: 20px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+.courses-6 #price {
+  text-decoration: line-through;
+  color: #333333;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.courses-6 #price b {
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.courses-6 .course a {
+  color: #7758D7;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 5px;
+}
